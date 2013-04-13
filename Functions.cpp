@@ -41,7 +41,7 @@ bool init()
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-	Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, 2, 2000 );
+	//Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, 2, 2000 );
 
 	return true;
 

@@ -2,7 +2,6 @@
 #include "Classes.h"
 
 #include <SDL.h>
-#include <SDL_mixer.h>
 
 SDL_Event event;
 
@@ -19,5 +18,3 @@ unsigned menu;
 Box numbers[10];
 
 int SCORE[10];
-
-Mix_Music * music;

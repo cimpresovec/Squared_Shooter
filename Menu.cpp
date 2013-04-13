@@ -22,7 +22,7 @@ void Menu::handle_input()
 			set_state(EXIT);
 		}
 
-		else if ( event.type == SDL_KEYUP && event.key.keysym.sym == SDLK_RETURN )
+		else if ( event.type == SDL_KEYUP )
 		{
 			set_state(GAME);
 

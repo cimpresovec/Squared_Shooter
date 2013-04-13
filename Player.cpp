@@ -51,6 +51,10 @@ void Player::handle_input()
 		case SDLK_RIGHT: b_right = true; break;
 		case SDLK_DOWN: b_down = true; break;
 		case SDLK_LEFT: b_left = true; break;
+		case SDLK_w: b_up = true; break;
+		case SDLK_d: b_right = true; break;
+		case SDLK_s: b_down = true; break;
+		case SDLK_a: b_left = true; break;
 		//case SDLK_x: b_shoot = true; break;
 		}
 
@@ -75,6 +79,10 @@ void Player::handle_input()
 		case SDLK_RIGHT: b_right = false; break;
 		case SDLK_DOWN: b_down = false; break;
 		case SDLK_LEFT: b_left = false; break;
+		case SDLK_w: b_up = false; break;
+		case SDLK_d: b_right = false; break;
+		case SDLK_s: b_down = false; break;
+		case SDLK_a: b_left = false; break;
 		//case SDLK_x: b_shoot = false; break;
 		}
 

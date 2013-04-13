@@ -1,6 +1,12 @@
 #ifndef CLASSES_H
 #define CLASSES_H
 
+#pragma comment(lib, "SDLmain.lib")
+#pragma comment(lib, "SDL.lib")
+#pragma comment(lib, "SDL_image.lib")
+#pragma comment(lib, "OpenGL32.lib")
+#pragma comment(lib, "Glu32.lib")
+
 #include <SDL.h>
 #include <vector>
 
